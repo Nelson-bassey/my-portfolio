@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Calculator App"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "personal portfolio"
+	}
+}
