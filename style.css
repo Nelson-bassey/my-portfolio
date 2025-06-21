@@ -178,7 +178,7 @@ section{
   color: white;
 }
 span{
-  color: red;
+  color: var(--primary-color);
 }
 /* the button below the text in homepage owns this style */
 .btn{
@@ -437,6 +437,11 @@ p{
  #contact button{
   padding: 5px;
  }
+}
+/* this is the code thatv removes the text  decoration from the submit button*/
+.submit-btn a{
+  text-decoration: none;
+  color: white;
 }
 
 /* home page of my portfolio queries ends here  */
