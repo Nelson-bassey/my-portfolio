@@ -228,6 +228,26 @@ span{
   width: 300px;
   border-radius: 50%;
   box-shadow: var(--color-shadow);
+  justify-content: center;
+}
+
+/* ===simple animation for the image === */
+.ball{
+  width: 100px;
+  height: 100px;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%{
+    margin-bottom: 0;
+  }
+  50%{
+    margin-bottom: 100px;
+  }
+  100%{
+    margin-bottom: 0;
+    box-shadow: 5px 5px 5px 4px var(--color-text-main);
+  }
 }
 #images img{
   width: 100%;
@@ -235,6 +255,7 @@ span{
   border-radius: 50%;
   box-shadow: 1px 1px 6px  6px var(--color-shadow);
 }
+
 
 /* home page of my portfolio queries begins here */
 @media (max-width: 768px){
@@ -245,7 +266,11 @@ span{
     text-align: center;
   
   }
+  /* .ball{
+    animation: none;
+  } */
   .home_page{
+    animation: none;
     flex-direction: column-reverse;
     gap: 0px;
     padding-top: 80px;
@@ -274,6 +299,9 @@ span{
     width: 150px;
     box-shadow: 1px 1px 10px  8px var(--primary-color);
   }
+  .ball{
+  animation: none;
+}
 }
 /* the homepage qeries nds where the about section query begins */
 /* the about section */ 
