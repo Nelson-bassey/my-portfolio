@@ -22,7 +22,6 @@ links.forEach(link => {
     "Graphic designer ",
     "Book worm ",
     "Football addict ",
-    "Responsive Design Lover "
   ];
 
   let skillIndex = 0;
