@@ -61,9 +61,8 @@ ul, li a{
     display: flex;
     gap: 20px;
     text-decoration: none;
-    color: var(--color-text-main);
     list-style: none;
-    color: var(--color-primary);
+    color: var(--color-text-main);
 }
 
 ul li a:hover{
@@ -165,6 +164,10 @@ ul li a:active{
 .links.active {
   left: 0;
   top: 3rem;
+}
+ul li a:hover{
+  color: var(--color-text-main);
+  text-decoration-color: var(--color-text-main);
 }
 }
 /* the mobile styles query ends here for the hamburger  menu */

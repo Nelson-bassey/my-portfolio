@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- === the meta tags begins here it is responsible for the seo ===-->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="title" content="Bassey nelson - Portfolio" />
@@ -9,10 +10,10 @@
   <meta name="author" content="Bassey Nelson" />
   <meta name="robots" content="index, follow" />
   <meta property="og:title" content="Nelson Bassey Portfolio" />
- <meta property="og:description" content="Explore Nelson Bassey's frontend development projects and skills." />
- <meta property="og:image" content="/profile.png" />
-
+  <meta property="og:description" content="Explore Nelson Bassey's frontend development projects and skills." />
+  <meta property="og:image" content="/profile.png" />
   <title>Nelson-bassey Web developer-portfolio</title>
+<!-- === this is the cascading style sheet link === -->
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
@@ -31,7 +32,7 @@
   </header>
 
   <section class="home_page" id="home">
-    <!-- the text div thhat holds the text of the home page   -->
+    <!-- the text div that holds the text of the home page   -->
     <div class="home_text">
       <h2 >Hi 🖐 am <span>Nelson</span><br> a  <span class="auto-type">fullstack </span>developer</h2>
         <p>am dedicated to crafting scalable and <br> responsive websites <br>
@@ -41,7 +42,7 @@
           <a href="/Nelson_Bassey_CV_Updated.docx">Download Cv</a>
         </button>
     </div>
-    <!-- the image div  -->
+    <!-- the image div  of the home page -->
     <div id="images" class="ball">
       <img src="images/neltech-solutions.png" alt="Nelson Bassey web developer profile">
     </div>
@@ -72,23 +73,23 @@
       </div>
   </div>
 </section>
-<!--  this section is for the portfolio where i can showcase my previous works -->
+<!--  this section is for the portfolio where am showcasing my previous works -->
   <section id="portfolio">
   <div class="container">
     <h2>Recent Projects</h2>
     <div class="portfolio-grid">
       <div class="portfolio-item">
-        <img src="images/neltech-solutions.png" alt="ceo neltech-solutions">
+        <a href="https://www.naijaflaver.com" target="_blank"><img src="images/neltech-solutions.png" alt="ceo neltech-solutions"></a>
         <h3>NelTech Solutions</h3>
         <p>A coding solutions website with real-world problem-solving content.</p>
       </div>
       <div class="portfolio-item">
-        <img src="images/sql.jpg" alt="Project 2">
+        <a href="https://www.MySQL.com" target="_blank"><img src="images/sql.jpg" alt="Project 2"></a>
         <h3>MySQL Course</h3>
         <p>An online MySQL course platform similar to Udemy with downloadable content.</p>
       </div>
       <div class="portfolio-item">
-        <img src="images/casio.jpg" alt="Project 3"> 
+        <a href="https://github.com/Nelson-bassey" target="_blank"><img src="images/casio.jpg" alt="Project 3"> </a>
         <h3>Basic Calculator</h3>
         <p>An Web calculator for solving basic arithmetical problems.</p>
       </div>
@@ -96,17 +97,19 @@
     </div>
   </div>
 </section>
-<!-- this is the last section which is the footer of the page -->
+<!-- this is the last section which holds the contact form of the page -->
  <section id="contact">
   <div class="container">
     <h2>Contact Me</h2>
-    <form  method="POST">
+    <form action="https://formspree.io/f/mrbkolkl"  method="POST">
       <input type="text" name="name" placeholder="Your Name" required spellcheck="true">
       <input type="email" name="email" placeholder="Your Email" required spellcheck="true">
       <textarea name="message" placeholder="Your Message" required></textarea>
       <button type="submit" class="submit-btn"><a href="mailto:nbassey148@gmail.com" >Send Message</a></button>
     </form>
   </div>
+  <form ... onsubmit="alert('Thanks! Your message has been sent successfully ✔.');">
+
 </section>
 <!-- the footer begins here which is the end of the portfolion website -->
 <footer>
