@@ -12,29 +12,16 @@ links.forEach(link => {
   });
 })
 
-// === this code enables the type writting === <script>
-  // const text = [
-  //   "frontend developer",
-  //   "graphic designer",
-  //   "book worm"
-  // ]
-  // const typewriter = document.getElementById("typewriter");
-  // let index = 0;
+// === alert message === 
+  onsubmit="alert('Thanks! Your message has been sent successfully ✔.');"
 
-  // function typeEffect() {
-  //   if (index < text.length) {
-  //     typewriter.textContent += text.charAt(index);
-  //     index++;
-  //     setTimeout(typeEffect, 100); // typing speed
-  //   }
-  // }
 
-  // window.onload = typeEffect;
-
+// === this code enables the type writting === 
   const skills = [
     "Frontend Developer ",
     "Graphic designer ",
     "Book worm ",
+    "Football addict ",
     "Responsive Design Lover "
   ];
 
