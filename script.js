@@ -12,7 +12,7 @@ links.forEach(link => {
   });
 })
 
-// === alert message === 
+// === alert message when form is submitted === 
   onsubmit="alert('Thanks! Your message has been sent successfully ✔.');"
 
 
